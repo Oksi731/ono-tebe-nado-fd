@@ -1,1 +1,1 @@
-https://github.com/Oksi731/ono-tebe-nado-fd#:~:text=yandex%2Dpraktikum/ono%2Dtebe%2Dnado%2Dfd
+https://github.com/Oksi731/ono-tebe-nado-fd
