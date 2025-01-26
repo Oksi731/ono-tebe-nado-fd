@@ -4,6 +4,7 @@
   margin: auto;
   background: rgba(255, 255, 255, 1);
   opacity: 0.6px;
+  padding: 370 700;
 }
 
 .header {
@@ -33,7 +34,7 @@
 }
 
 .header-logo-image {
-  width: 148px;
+  width: 130px;
   height: 105px;
   left: 478px;
 }
@@ -193,7 +194,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;  
-  }
+}
 
 .card-title {
   height: 10px;
