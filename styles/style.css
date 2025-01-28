@@ -19,25 +19,21 @@
 .header-menu {
   display: flex;
   justify-content: space-evenly;
-  width: 447px;
-  font-size: 18px;
+  width: 448px;
+  font-size: 19px;
   font-weight: 400;
   line-height: 24.3px;
 }
 
 .header-menu-item {
   list-style-type: circle;
+  text-decoration: none;
 }
 
 .header-logo-image {
   width: 148px;
   height: 105.9px;
 }
-
-.header-menu-item-active {
-  text-decoration: none;
-}
-
 .address {
   justify-self: end;
   font-family: Raleway, sans-serif;
@@ -70,7 +66,7 @@
 }
 
 .cover_title {
-  padding: 163px 50px 50px;
+  padding: 161px 50px 50px;
   z-index: 1;
 }
 
@@ -93,6 +89,10 @@
   color: #fff;
 }
 
+.no-letter-spacing {  
+  letter-spacing: 0;
+}
+
 .aligned-text_center {
   z-index: 1;
   text-align: center;
@@ -103,10 +103,6 @@
   z-index: 1;
   text-align: end;
   color: #fff;
-}
-
-.no-letter-spacing {
-  letter-spacing: 0;
 }
 
 .cover__description {
@@ -169,7 +165,7 @@
 
 .lots-card-list-item {
   width: 334px;
-  min-height: 596px;
+  min-height: 598px;
 }
 
 .card-link {
@@ -202,8 +198,8 @@
   color: #ffffff;
   position: relative;
   font-family: "Raleway" sans-serif;
-  left: 3px;
-  right: 60px;
+  left: 2px;
+  right: 70px;
   font-style: normal;
   line-height: 120%;
   text-align: left;
@@ -243,8 +239,8 @@
   line-height: 23px;
   color: #000;
   display: flex;
-  padding-top: 30.6px;
-  margin-left: 62.6px;
+  padding-top: 30.7px;
+  margin-left: 63.7px;
 }
 
 .about {
