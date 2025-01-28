@@ -42,7 +42,7 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
+  margin-right: 65px;
   font-weight: 400;
 }
 
@@ -89,7 +89,7 @@
   color: #fff;
 }
 
-.no-letter-spacing {  
+.no-letter-spacing {
   letter-spacing: 0;
 }
 
@@ -244,14 +244,14 @@
 }
 
 .about {
-  width: 750px;
-  margin: 123px 25px;
+  width: 1052px;
+  margin: 124px 25px;
   display: grid;
   justify-content: space-between;
   align-items: center;
   grid-template-columns: 1fr 2fr;
-  padding-top: 30px;
-  margin-left: 70px;
+  padding-top: 31px;
+  margin-left: 71px;
 }
 
 .about__column {
