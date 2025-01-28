@@ -1,6 +1,5 @@
 .content-section {
   box-sizing: border-box;
-  width: 1100px;
   margin: auto;
   background: rgba(255, 255, 255, 1);
   opacity: 0.6px;
@@ -10,34 +9,29 @@
 .header {
   width: 1100px;
   align-items: center;
-  margin-top: 95px;
+  margin-top: 100px;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: auto;
-  padding: 100px;
+  padding: 100px 20px;
 }
 
 .header-menu {
   display: flex;
   justify-content: space-evenly;
-  width: 391.48px;
-  top: 133px;
-  left: 50px;
-}
-.header-menu-link {
-  width: 1100px;
+  width: 447px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24.3px;
 }
 
 .header-menu-item {
   list-style-type: circle;
-  gap: 15px;
 }
 
 .header-logo-image {
   width: 148px;
-  height: 105px;
-  left: 478px;
-  
+  height: 105.9px;
 }
 
 .header-menu-item-active {
@@ -46,11 +40,14 @@
 
 .address {
   justify-self: end;
-  width: 240px;
   font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 24.3px;
   font-style: normal;
   display: flex;
   flex-direction: column;
+  margin-left: auto;
+  font-weight: 400;
 }
 
 .cover {
@@ -60,8 +57,8 @@
   background-position: center;
   background-size: cover;
   background-color: #f5f5f5ff;
-  
 }
+
 .overlay {
   width: 100%;
   height: 100%;
@@ -70,12 +67,12 @@
   position: absolute;
   opacity: 60%;
   inset: 0;
-  }
+}
 
 .cover_title {
-  padding: 165px 50px 50px ;
+  padding: 163px 50px 50px ;
   z-index: 1;
-  }
+}
 
 .cover-text {
   z-index: 1;
@@ -89,7 +86,7 @@
   line-height: 115%;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  }
+}
 
 .aligned-text {
   z-index: 1;
@@ -114,7 +111,7 @@
 
 .cover__description {
   z-index: 1;
-  margin-top: 106px;
+  margin-top: 103px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -158,15 +155,14 @@
   font-size: 40px;
   text-transform: uppercase;
   color: #000;
-  padding-left: 60px;
+  padding-left: 65px;
 }
 
 .lots-card-list {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  padding-top: 27px;
-  gap: 25px;
-  margin-left: 24px;
+  padding-top: 25px;
+  margin-left: 25px;
   justify-content: start;
   list-style-type: none;
 }
@@ -206,7 +202,7 @@
   color: #ffffff;
   position: relative;
   font-family: "Raleway" sans-serif;
-  left: 10px;
+  left: 3px;
   right: 60px;
   font-style: normal;
   line-height: 120%;
@@ -247,21 +243,19 @@
   line-height: 23px;
   color: #000;
   display: flex;
-  padding-top: 40px;
-  margin-left: 70px;
+  padding-top: 30.6px;
+  margin-left: 62.6px;
 }
 
 .about {
-  width: 1052px;
-  margin: 120px 24px 180px 24px;
-  display: grid;
-  justify-content: space-between;
-  /*gap: 10px;*/
-  align-items: center;
-  grid-template-columns: 1fr 2fr;
-  /*column-gap: 10px;*/
-  padding-top: 30px;
-  margin-left: 70px;
+width: 750px;
+margin: 123px 25px;
+display: grid;
+justify-content: space-between;
+align-items: center;
+grid-template-columns: 1fr 2fr;
+padding-top: 30px;
+margin-left: 70px;
 }
 
 .about__column {
@@ -276,8 +270,6 @@
   height: 240px;
   background-color: black;
   border-radius: 50%;
-  top: 35px;
-  left: 47px;
 }
 
 .about__logo-image {
@@ -288,12 +280,9 @@
 .about-about {
   display: flex;
   flex-direction: column;
-  width: 693px;
-  left: 358px;
-  margin-left: 30px;
+  width: 774px;
+  padding-left: 73px;
   justify-content: flex-start;
-  margin: 20px;
-  text-align: left;
   background-size: cover;
 }
 
@@ -308,7 +297,7 @@
 }
 
 .about-text {
-  margin: 99px 27px 0px 0px;
+  margin: 97px 24px 0px 0px;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
@@ -323,31 +312,29 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: auto;
-  margin-top: 157px;
-  margin-bottom: 81px;
+  margin-top: 145px;
+  margin-bottom: 80px;
 }
 
 .adress-footer {
-  justify-content: center;
-  width: 264.57px;
-  left: 50px;
-  margin: 80px;
+  width: 300.8px;
+  margin: 11px 52px;
+  line-height: 1.5;
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
 }
 
 .footer__menu {
-  width: 300px;
-  top: 1px;
-  align-self: center;
+  width: 230px;
   list-style: none;
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  margin: auto;
+  margin: 14px 46px;
 }
 
 .footer__menu-list {
   width: 163.9px;
-  top: 1px;
-  margin: auto;
+  margin: 0px 15px;
 }
 
 .footer__menu-list-item {
@@ -361,7 +348,6 @@
   flex-direction: row;
   gap: 48px;
   width: 240px;
-  right: 50px;
-  margin: auto;
+  margin: 12px 84px;
   list-style: none;
 }
