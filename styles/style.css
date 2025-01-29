@@ -9,11 +9,11 @@
 .header {
   width: 1100px;
   align-items: center;
-  margin-top: 50px;
+  /*margin-top: 50px;*/
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: auto;
-  padding: 41px 19.7px 39px 23px;
+  padding: 43px 0px 0px 0px;
 }
 
 .header-menu {
