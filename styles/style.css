@@ -309,28 +309,27 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   grid-template-rows: auto;
-  margin-top: 145px;
 }
 
 .adress-footer {
   width: 301px;
-  margin: 12px 52px;
+  margin: 32px 52px;
   line-height: 1.5;
   font-family: "Raleway" sans-serif;
   font-style: normal;
 }
 
 .footer__menu {
-  width: 230px;
+  width: 223px;
   list-style: none;
   font-family: Raleway, sans-serif;
   font-weight: 400;
-  margin: 16px 45px;
+  margin: 38px 47px;
 }
 
 .footer__menu-list {
-  width: 167px;
-  margin: 4px 12px;
+  width: 188px;
+  margin: 4px;
 }
 
 .footer__menu-list-item {
@@ -342,8 +341,8 @@
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
-  gap: 48px;
+  gap: 46px;
   width: 240px;
-  margin: 12px 84px;
+  margin: 32px 87px;
   list-style: none;
 }
