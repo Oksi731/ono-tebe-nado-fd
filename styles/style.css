@@ -3,7 +3,8 @@
   margin: auto;
   background: rgba(255, 255, 255, 1);
   opacity: 0.6;
-  /*padding: 370px 700px;*/
+  width: 100%;
+  padding: 370px 700px;
 }
 
 .header {
@@ -46,8 +47,10 @@
   font-style: normal;
   display: flex;
   flex-direction: column;
-  margin-right: 80px;
+  padding-right: 80px;
   font-weight: 400;
+  padding-right: 97px;
+  letter-spacing: 1.3px;
 }
 
 .main {
@@ -310,13 +313,6 @@
   grid-template-rows: auto;
   align-content: center;
   justify-items: center;
-}
-
-.adress-end {
-  padding-right: 97px;
-  line-height: 24.3px;
-  letter-spacing: 1.3px;
-  font-style: normal;
 }
 
 .footer__menu-list {
