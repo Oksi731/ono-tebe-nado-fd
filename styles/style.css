@@ -176,7 +176,6 @@
   line-height: 26.4px;
   text-transform: uppercase;
   color: #ffffff;
-  position: relative;
   font-family: "Raleway" sans-serif;
   text-align: left;
   z-index: 1;
@@ -286,7 +285,7 @@ article {
 .footer {
   display: flex;
   justify-content: space-between;
-  padding: 41px 49px 87px 51px;
+  padding: 41px 49px 90px 51px;
 }
 
 .footer__menu-list {
